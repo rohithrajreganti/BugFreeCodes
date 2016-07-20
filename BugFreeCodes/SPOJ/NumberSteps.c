@@ -19,9 +19,9 @@ int main()
         else if(x==y+2)
         {
             if(x%2==0)
-                printf("%ld\n",2*(x-1));
+                printf("%ld\n",x+y);
             else
-                printf("%ld\n",2*x-3);
+                printf("%ld\n",x+y-1);
         }
         else
             printf("No Number\n");
